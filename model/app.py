@@ -11,7 +11,7 @@ st.title('Stock Trend Predictor')
 ticker = st.text_input('Enter Stock Ticker', 'EICHERMOT.NS')
 ticker.upper()
 
-start = '2010-01-01'
+start = '2001-01-01'
 last = date.datetime.today() - date.timedelta(days=1)
 year = last.strftime("%Y")
 month = last.strftime("%m")
